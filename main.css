@@ -147,10 +147,11 @@ table, tr, th, td, caption
 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+
 }
 #Photos img
 {
-    flex: 1 300px;
     height: auto;
     object-fit: cover;
     padding: 5px 0px;
@@ -159,10 +160,10 @@ table, tr, th, td, caption
 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 #Art img
 {
-    /*flex: 1 300px;*/
     height: auto;
     object-fit: cover;
     padding: 5px 0px;
